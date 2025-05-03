@@ -1,0 +1,45 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python bytecode / virtual envs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual‑environment directories
+.env
+.venv
+venv/
+env/
+
+# Build / distribution artifacts
+dist/
+build/
+*.egg-info/
+*.wheel
+
+# IDE / editor metadata
+.vscode/
+.idea/
+*.swp
+
+# yt‑dlp temp & cache files
+ytdlp_cache/
+*.part
+*.ytdl
+
+# Audio output (optional – remove if you want to commit MP3s)
+*.mp3
+*.m4a
+output/
+
+# Logs & misc
+*.log
+*.tmp
+tmp/
+
+# Apple Music/iTunes library exports (optional)
+# Music Library.xml
+# *.xml
